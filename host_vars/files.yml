@@ -4,7 +4,6 @@ platform:               'raspberry-pi'
 mac_address:            '02:55:08:42:95:49'
 ip_address:             '192.168.11.62'
 parent:                 "{{ gateway }}"
-monitor:                'yes'
 notify:                 'yes'
 encrypted_storage:
   - name:               'storage'

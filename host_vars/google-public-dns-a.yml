@@ -3,5 +3,4 @@
 ip_address:             '8.8.8.8'
 parent:                 "{{ isp_gateway }}"
 platform:               'google-host'
-monitor:                'yes'
 notify:                 'no'

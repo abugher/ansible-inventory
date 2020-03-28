@@ -3,7 +3,6 @@
 ip_address:             '45.79.76.174'
 parent:                 "{{ isp_gateway }}"
 #platform:               ''
-monitor:                'yes'
 notify:                 'yes'
 update_hour:            '15'
 update_minute:          '30'

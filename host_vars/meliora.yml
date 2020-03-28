@@ -3,7 +3,6 @@ mac_address:            'F0:DE:F1:90:77:CB'
 ip_address:             '192.168.11.53'
 parent:                 "{{ gateway }}"
 platform:               'laptop'
-monitor:                'yes'
 notify:                 'yes'
 aliases:
   - 'remote'

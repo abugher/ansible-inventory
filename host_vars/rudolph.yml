@@ -3,7 +3,6 @@ mac_address:            '5C:C5:D4:64:E6:19'
 ip_address:             '192.168.11.58'
 parent:                 "{{ gateway }}"
 platform:               'laptop'
-monitor:                'yes'
 notify:                 'no'
 backup_users:
   - 'rachel'
