@@ -1,0 +1,7 @@
+---
+mac_address:            '58:a0:23:21:bb:87'
+ip_address:             '192.168.11.72'
+parent:                 'gateway'
+notify:                 'no'
+aliases:
+  - 'abugher-laptop'

@@ -1,0 +1,5 @@
+---
+mac_address:            'f0:72:ea:f2:89:43'
+ip_address:             '192.168.11.69'
+parent:                 'gateway'
+notify:                 'no'

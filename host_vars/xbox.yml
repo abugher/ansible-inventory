@@ -1,5 +1,5 @@
 ---
-mac_address:            '50:1A:C5:5B:B7:AA'
+mac_address:            '50:1a:c5:5b:b7:a8'
 ip_address:             '192.168.11.65'
 parent:                 'gateway'
 notify:                 'no'

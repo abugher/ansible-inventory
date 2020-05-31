@@ -1,0 +1,5 @@
+---
+#mac_address:            randomized
+#ip_address:             '192.168.11.x'
+parent:                 'gateway'
+notify:                 'no'
