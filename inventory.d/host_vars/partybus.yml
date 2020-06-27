@@ -15,6 +15,7 @@ parent:                 'gateway'
 notify:                 'no'
 reboot_hour:            '13'
 reboot_minute:          '59'
+skip_reboot:            True
 update_hour:            '14'
 update_minute:          '17'
 ssh_unique_port:        '2224'
