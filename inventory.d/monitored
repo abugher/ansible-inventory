@@ -1,0 +1,13 @@
+[monitored]
+files
+gateway
+google-public-dns-a
+isp-gateway
+meliora
+neuron-mail
+neuron
+partybus
+rudolph
+#spy
+synapse
+wii

@@ -1,0 +1,22 @@
+[dhcp-clients]
+# See also:  internal-dns-targets
+chromecast
+files
+google-home
+hue
+mawg
+meliora
+neuron
+no
+partybus
+peekaboo
+rudolph
+spy
+synapse
+wii
+work-laptop
+work-phone
+wyze-cam
+xbox
+
+

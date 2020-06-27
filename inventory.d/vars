@@ -1,0 +1,22 @@
+[all:vars]
+domain='neuronpointer.net'
+netmask='255.255.255.0'
+# role assignment
+gateway='gateway'
+isp_gateway='isp-gateway'
+backup_server='files'
+dns_server='neuron'
+syslog_server='meliora'
+steamcmd_server='meliora'
+dontstarvetogether_server='meliora'
+time_server='neuron'
+# I disable automatic fact gathering for performance.  Set facts manually,
+# here.
+#ansible_pkg_mgr         - required by steamcmd
+ansible_pkg_mgr='apt'
+# ansible_os_family     - required by dontstarvetogether
+ansible_os_family='Debian'
+usergroup_all=['aaron', 'rachel', 'dalton', 'test']
+usergroup_games=['aaron', 'rachel', 'dalton']
+
+
