@@ -1,4 +1,5 @@
 [monitored]
+catcher
 files
 gateway
 google-public-dns-a
@@ -6,8 +7,9 @@ isp-gateway
 meliora
 neuron-mail
 neuron
-partybus
+#partybus
 rudolph
 spy
 synapse
 wii
+catcher

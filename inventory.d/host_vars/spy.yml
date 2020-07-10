@@ -1,7 +1,5 @@
 ---
 platform:               'raspberry-pi'
-#mac_address:            '3A:4E:D2:48:B3:B7' # o-pi wired
-#mac_address:            '12:81:11:ea:36:a1' # o-pi wireless
 #mac_address:            'dc:a6:32:5b:62:35' # r-pi wired
 mac_address:            'dc:a6:32:5b:62:36' # r-pi wireless
 ip_address:             '192.168.11.67'

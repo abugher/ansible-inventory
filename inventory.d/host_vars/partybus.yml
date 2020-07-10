@@ -1,7 +1,7 @@
 ---
 # Close enough, but technically it's a Banana Pi M2.
 platform:               'raspberry-pi'
-mac_address:            '02:44:08:07:77:44'
+mac_address:            '02:44:07:08:98:71'
 ip_address:             '192.168.11.64'
 aliases:
   - 'conference'
@@ -13,9 +13,9 @@ aliases:
 known_host:             'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC/SZiKB6yzFsrRWVlsl+ln2oFWgXuMj1l75Z2lRI06WZoJzR6ZMbXtxkskY49YbElLU/WvKY32g4VTaoHF7NN+2owSrhWDmCSkE5vHbv4W1jxQ3ZnQRq2vJ91rzEMvMjYwjFNYND34aiRuEL+kMEQuvXhj3fGJW8uQuXsE8ld8ZfmefIvNvEqTGICJ7g/EaJ2YO7qqY97TTNgSts4vHeHvmWKFBNHFE87R7hkqqpkTBhLxI913L6nb/UVHaE1iEl1WjZj+IYS5LqLsFvfDxIUUWu/qQrB3hiWqfGObfbX3XSxolseNxE0FblzfI5bdifGYfFLtNOWrGG/SPBzzvIoP'
 parent:                 'gateway'
 notify:                 'no'
-reboot_hour:            '13'
+reboot_hour:            '12'
 reboot_minute:          '59'
 skip_reboot:            True
-update_hour:            '14'
+update_hour:            '13'
 update_minute:          '17'
 ssh_unique_port:        '2224'
