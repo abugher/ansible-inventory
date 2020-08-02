@@ -1,6 +1,6 @@
 ---
 #mac_address:           ''
-ip_address:             '96.120.88.253'
+ip_address:             '162.229.176.1'
 parent:                 "{{ gateway }}"
 platform:               'big-router'
 notify:                 'yes'
