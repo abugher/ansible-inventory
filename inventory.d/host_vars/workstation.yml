@@ -1,0 +1,15 @@
+---
+platform:               'raspberry-pi'
+#mac_address:            'dc:a6:32:5b:62:35' # r-pi wired
+mac_address:            'dc:a6:32:5b:62:36' # r-pi wireless
+ip_address:             '192.168.11.75'
+known_host:             'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDimkoUBmR4w3swoAups+znXL10CytrPPUEsocpETtsRq9/GhMrbX+yud6WiEx7S4WE3NHOEpTJ9cjH6JQgj1tQjKhj+muvKZwAV3lct2MCKY6LALt1r4EjBNuRPUQXYlXDViVra/5Zm4+5zpATmDlWtS3lAjxfEXu0eGhNvtbYxiRcPP9wZ2eVzL7ozsVzMemXgiuv9xlRmSOnQhfF+CQ2ZmGuTEGGMRAZbcD+vWosH3qSE86uoIYkCnL63bC91cGyjXZiBtqOdOksprUwfSGGijDdj4TbIIY9TVZkDRAdtjNt1ha48iSMLQGWsblB8h8y2ml2ihY9M7V8bB3Yw7nqcRbHLr30YNJQdBI3/JGUcHtkaRjFPpr3v+YRudY6ciwveo9o+2vgP2pmW2Tt88u5KvluUa57MDjrGIbH0sp1Q6FxG4hcFy12e5pCdnPFD2twUUUt2UgLbziAX4AjBi5oBCJM0fdvblXRhVSAd5Vzm4agagq9Vb1gbmiOt1Oxo/rgXE/R4h/qEOMXFAk855Zc97vq/BkJABDzqwcPNLAReh/Bv69vCcAVyAGRaiouPKkffprDw4XmG/Mng9LpBsOg36O2Wd83Nk6Y6VaSTqPZzqi6NTmnJ6yvwl48HbLBHXMCS4iKVZmXK3N6E/9Ct+X3pYIFqTwnR3CvBfkhHrACCQ=='
+parent:                 'gateway'
+notify:                 'no'
+reboot_hour:            '23'
+reboot_minute:          '59'
+update_hour:            '00'
+update_minute:          '17'
+skip_reboot:            True
+x_drivers:
+  - 'fbturbo'
