@@ -1,5 +1,5 @@
 [monitored]
-catcher
+#catcher
 files
 gateway
 google-public-dns-a
@@ -12,5 +12,4 @@ rudolph
 #spy
 synapse
 wii
-#catcher
 #workstation
