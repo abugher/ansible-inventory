@@ -13,3 +13,5 @@ update_minute:          '17'
 skip_reboot:            True
 x_drivers:
   - 'fbturbo'
+sudoers:
+  - 'aaron'
