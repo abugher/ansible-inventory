@@ -18,3 +18,4 @@ ansible_pkg_mgr='apt'
 ansible_os_family='Debian'
 usergroup_all=['aaron', 'rachel', 'dalton', 'steve', 'test']
 usergroup_games=['aaron', 'rachel', 'dalton', 'steve']
+timezone='America/New_York'
