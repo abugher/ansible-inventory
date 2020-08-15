@@ -1,10 +1,11 @@
 [sshd]
 catcher
-partybus
 files
 meliora
 neuron
 neuron-mail
+partybus
 rudolph
+spy
 synapse
 workstation
