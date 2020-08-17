@@ -16,6 +16,6 @@ time_server='neuron'
 ansible_pkg_mgr='apt'
 # ansible_os_family     - required by dontstarvetogether
 ansible_os_family='Debian'
-usergroup_all=['aaron', 'rachel', 'dalton', 'steve', 'test']
-usergroup_games=['aaron', 'rachel', 'dalton', 'steve']
+usergroup_all=['aaron', 'rachel', 'dalton', 'steve', 'lucy', 'test']
+usergroup_games=['aaron', 'rachel', 'dalton', 'steve', 'lucy']
 timezone='America/New_York'
