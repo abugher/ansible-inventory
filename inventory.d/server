@@ -1,9 +1,7 @@
 [server]
-catcher
 files
 meliora
 neuron
 neuron-mail
-partybus
-spy
 synapse
+workstation
