@@ -12,6 +12,7 @@ encrypted_storage:
   - name:               'storage'
     backing_device:     '/dev/sda'
     password_path:      '/home/escrow/storage_pass_phrase/pass_phrase.txt'
+    mount_point:        '/storage'
 e_user:                 'escrow'
 aliases:
   - 'transmission'
