@@ -9,6 +9,7 @@ notify:                 'yes'
 aliases:
   - 'remote'
   - 'printer'
+ssh_unique_port:        '2225'
 
 reboot_hour:            '01'
 reboot_minute:          '29'
