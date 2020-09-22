@@ -1,7 +1,6 @@
-# no_systemd remedies a condition where shutdown fails to complete, on Raspbian
-# Buster systems upgraded from as far back as Wheezy, possibly Squeeze.  That's
-# neuron and synapse, at least.
+# no_systemd remedies a condition where shutdown fails to complete, on some
+# Raspbian Buster systems upgraded from as far back as Wheezy, possibly
+# Squeeze.
 [no_systemd]
-synapse
 neuron
 files
