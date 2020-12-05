@@ -9,3 +9,5 @@ update_minute:          '00'
 reboot_hour:            '00'
 reboot_minute:          '00'
 skip_reboot:            True
+backup_users:
+  - 'aaron'
