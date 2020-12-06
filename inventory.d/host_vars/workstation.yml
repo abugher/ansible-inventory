@@ -15,7 +15,10 @@ skip_reboot:            True
 x_drivers:
   - 'fbturbo'
 owner:                  'aaron'
-backup_users:
+backup_client_users:
   - 'aaron'
   - 'rachel'
   - 'lucy'
+backup_paths:
+  aaron:
+    - '/home/aaron/back_this_up'
