@@ -1,11 +1,16 @@
 [internal-dns-targets]
 # See also:  dhcp-clients
 aaron-phone
+buttons
+catcher
 chromecast
 files
 gateway
 google-home
+google-public-dns-a
+google-public-dns-b
 hue
+isp-gateway
 mawg
 meliora
 neuron
@@ -19,10 +24,6 @@ synapse
 wii
 work-laptop
 work-phone
+workstation
 wyze-cam
 xbox
-google-public-dns-a
-google-public-dns-b
-isp-gateway
-catcher
-workstation
