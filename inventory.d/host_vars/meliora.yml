@@ -16,6 +16,13 @@ reboot_hour:            '01'
 reboot_minute:          '29'
 update_hour:            '02'
 update_minute:          '30'
+backup_hour:            '04'
+backup_minute:          '03'
+backup_client_users:
+  - 'www-data'
+backup_paths:
+  www-data:
+    - '/usr/local/share/kanboard/data'
 live_build_minute:      '00'
 live_build_hour:        '05'
 
