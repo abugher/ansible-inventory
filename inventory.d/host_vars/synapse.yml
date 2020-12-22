@@ -15,3 +15,10 @@ reboot_hour:            '02'
 reboot_minute:          '29'
 update_hour:            '08'
 update_minute:          '00'
+backup_hour:            '03'
+backup_minute:          '29'
+backup_client_users:
+  - 'root'
+backup_paths:
+  root:
+    - '/var/lib/krb5kdc'
