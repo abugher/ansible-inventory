@@ -1,5 +1,6 @@
 [dhcp-clients]
 # See also:  internal-dns-targets
+backup
 aaron-phone
 catcher
 chromecast

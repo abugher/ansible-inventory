@@ -1,4 +1,5 @@
 [syslog_client]
+backup
 files
 neuron
 synapse

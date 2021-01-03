@@ -1,4 +1,5 @@
 [dns_client]
+backup
 catcher
 files
 meliora
