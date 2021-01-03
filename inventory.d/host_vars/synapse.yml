@@ -6,7 +6,6 @@ ssh_unique_port:        '2222'
 parent:                 "{{ gateway }}"
 platform:               'raspberry-pi'
 notify:                 'yes'
-e_user:                 'escrow'
 aliases:
   - 'kerberos'
   - 'smokeping'

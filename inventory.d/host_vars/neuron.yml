@@ -6,7 +6,6 @@ ssh_unique_port:        '22'
 parent:                 "{{ gateway }}"
 platform:               'raspberry-pi'
 notify:                 'yes'
-e_user:                 'escrow'
 aliases:
   - 'ntp'
   - 'wiki'

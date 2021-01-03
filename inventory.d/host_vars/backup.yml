@@ -11,9 +11,10 @@ notify:                 'yes'
 encrypted_storage:
   - name:               'backup'
     backing_device:     '/dev/sda'
-    password_path:      '/home/escrow/storage_pass_phrase/pass_phrase.txt'
     mount_point:        '/backup'
-e_user:                 'escrow'
+    fstype:             'btrfs'
+    mount_options:      'noatime,noauto,nodev,nosuid,noexec'
+backup_prefix:          '/backup'
 aliases:
   - 'transmission'
 reboot_hour:            '10'

@@ -16,6 +16,6 @@ update_minute:          '17'
 encrypted_storage:
   - name:               'big_volume'
     backing_device:     '/dev/mmcblk0p3'
-    password_path:      '/home/escrow/storage_pass_phrase/pass_phrase.txt'
     mount_point:        '/mnt/big_volume'
-e_user:                 'escrow'
+    fstype:             'ext4'
+    mount_options:      'noatime,noauto,nodev,nosuid,noexec'
