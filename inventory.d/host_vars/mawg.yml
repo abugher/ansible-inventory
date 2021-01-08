@@ -8,6 +8,12 @@ update_hour:            '00'
 update_minute:          '00'
 reboot_hour:            '00'
 reboot_minute:          '00'
+backup_hour:            '04'
+backup_minute:          '20'
 skip_reboot:            True
 backup_client_users:
   - 'aaron'
+backup_paths:
+  aaron:
+    - '/home/aaron/.gnupg'
+    - '/home/aaron/.password-store'
