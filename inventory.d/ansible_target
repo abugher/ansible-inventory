@@ -1,5 +1,6 @@
 [ansible_target]
 backup
+buttons
 catcher
 files
 meliora
