@@ -15,8 +15,6 @@ encrypted_storage:
     fstype:             'btrfs'
     mount_options:      'noatime,noauto,nodev,nosuid,noexec'
 backup_prefix:          '/backup'
-aliases:
-  - 'transmission'
 reboot_hour:            '10'
 reboot_minute:          '59'
 update_hour:            '11'
