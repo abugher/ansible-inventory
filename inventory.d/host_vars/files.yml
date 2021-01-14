@@ -20,3 +20,14 @@ reboot_hour:            '02'
 reboot_minute:          '59'
 update_hour:            '17'
 update_minute:          '00'
+backup_hour:            '16'
+backup_minute:          '20'
+skip_reboot:            True
+backup_client_users:
+  - 'aaron-phone'
+  - 'debian-transmission'
+backup_paths:
+  aaron-phone:
+    - '/storage/aaron-phone'
+  debian-transmission:
+    - '/var/lib/transmission-daemon'
