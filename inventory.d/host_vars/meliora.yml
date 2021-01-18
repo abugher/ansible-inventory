@@ -7,7 +7,6 @@ parent:                 "{{ gateway }}"
 platform:               'laptop'
 notify:                 'yes'
 aliases:
-  - 'remote'
   - 'printer'
   - 'kanboard'
 ssh_unique_port:        '2225'
