@@ -9,6 +9,7 @@ notify:                 'yes'
 aliases:
   - 'printer'
   - 'kanboard'
+  - 'remote'
 ssh_unique_port:        '2225'
 
 reboot_hour:            '01'
