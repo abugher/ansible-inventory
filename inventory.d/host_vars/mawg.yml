@@ -17,3 +17,4 @@ backup_paths:
   aaron:
     - '/home/aaron/.gnupg'
     - '/home/aaron/.password-store'
+    - '/home/aaron/control_center'
