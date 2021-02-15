@@ -13,3 +13,5 @@ reboot_minute:          '50'
 update_hour:            '04'
 update_minute:          '50'
 mac_address:  '18:56:80:73:2f:e4'
+platform_roles:
+  - 'jetson_nano'
