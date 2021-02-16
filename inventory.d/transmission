@@ -1,2 +1,3 @@
+# Keep this file in sync with DNS aliases.  (hostvars)
 [transmission]
 files

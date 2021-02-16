@@ -1,2 +1,4 @@
+# Keep this file in sync with DNS aliases.  (hostvars)
+# (Alias:  printer)
 [printer_postscript_proxy]
 meliora
