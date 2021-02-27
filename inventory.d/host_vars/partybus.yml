@@ -1,7 +1,8 @@
 ---
 # Close enough, but technically it's a Banana Pi M2.
 platform:               'raspberry-pi'
-mac_address:            '02:44:07:08:98:71'
+#mac_address:            '02:44:07:08:98:71' # bpi m2 ethernet
+#mac_address:            '98:48:27:51:8c:89' # USB wifi
 ip_address:             '192.168.11.64'
 aliases:
   - 'conference'
