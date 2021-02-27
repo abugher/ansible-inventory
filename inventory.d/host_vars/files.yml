@@ -22,7 +22,7 @@ update_hour:            '17'
 update_minute:          '00'
 backup_hour:            '16'
 backup_minute:          '20'
-skip_reboot:            True
+skip_reboot:            False
 backup_client_users:
   - 'aaron-phone'
   - 'debian-transmission'
