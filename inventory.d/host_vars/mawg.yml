@@ -18,3 +18,4 @@ backup_paths:
     - '/home/aaron/.gnupg'
     - '/home/aaron/.password-store'
     - '/home/aaron/control_center'
+    - '/home/aaron/.nethackrc'
