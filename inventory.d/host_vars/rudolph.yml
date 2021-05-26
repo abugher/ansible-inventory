@@ -17,3 +17,5 @@ backup_client_users:
 backup_paths:
   rachel:
     - '/home/rachel'
+pass_users:
+  - 'rachel'
