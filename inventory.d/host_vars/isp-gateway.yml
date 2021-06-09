@@ -1,6 +1,7 @@
 ---
 #mac_address:           ''
-ip_address:             '162.229.176.1'
+#ip_address:             '162.229.176.1'         # Cary
+ip_address:             '162.238.208.1'         # Raleigh, east side (Southall subdivision)
 parent:                 "{{ gateway }}"
 platform:               'big-router'
 notify:                 'yes'
