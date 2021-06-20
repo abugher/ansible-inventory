@@ -19,3 +19,4 @@ encrypted_storage:
     mount_point:        '/mnt/big_volume'
     fstype:             'ext4'
     mount_options:      'noatime,noauto,nodev,nosuid,noexec'
+motion_mask_file:       'raleigh_front_window.pgm'
