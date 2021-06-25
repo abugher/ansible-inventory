@@ -2,6 +2,8 @@
 #mac_address:           ''
 #ip_address:             '162.229.176.1'         # Cary
 ip_address:             '162.238.208.1'         # Raleigh, east side (Southall subdivision)
+# Home gateway reports default gateway:  76.192.12.1 ... but that doesn't ping
+# or show up on traceroute.
 parent:                 "{{ gateway }}"
 platform:               'big-router'
 notify:                 'yes'
