@@ -19,5 +19,6 @@ backup_paths:
     - '/home/aaron/.password-store'
     - '/home/aaron/control_center'
     - '/home/aaron/.nethackrc'
+    - '/home/aaron/games/dungeons_and_dragons'
 pass_users:
   - 'aaron'

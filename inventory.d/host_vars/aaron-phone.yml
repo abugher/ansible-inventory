@@ -1,6 +1,5 @@
 ---
 #mac_address:            'f8:0f:f9:f0:47:a6'     # Nexus 5
-#mac_address:            '02:ba:b3:7e:92:e4'     # Pine Phone
 mac_address:            'f8:0f:f9:d6:b9:7a'     # Pixel 4a
 ip_address:             '192.168.11.57'
 parent:                 'gateway'
