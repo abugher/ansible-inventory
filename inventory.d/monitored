@@ -1,5 +1,6 @@
 [monitored]
 backup
+buttons
 files
 gateway
 google-public-dns-a
@@ -7,6 +8,6 @@ isp-gateway
 meliora
 neuron
 neuron-mail
+repeater
 synapse
 wii
-buttons
