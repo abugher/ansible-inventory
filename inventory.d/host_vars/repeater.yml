@@ -1,5 +1,5 @@
 ---
-mac_address:            'f2:f2:6d:6d:67:72'  # TP-Link wa850re
+mac_address:            'f4:f2:6d:6d:67:72'  # TP-Link wa850re
 ip_address:             '192.168.11.2'
 platform:               'router'
 notify:                 'yes'
