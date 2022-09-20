@@ -9,6 +9,7 @@ notify:                 'yes'
 aliases:
   - 'printer'
   - 'kanboard'
+  - 'mco.lbsg.net'      # minecraft on switch "featured server" DNS override for private server - dnsmasq combines this with upstream results, but this is fastest and first.
 ssh_unique_port:        '2225'
 
 reboot_hour:            '01'
