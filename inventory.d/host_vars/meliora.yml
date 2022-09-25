@@ -9,7 +9,16 @@ notify:                 'yes'
 aliases:
   - 'printer'
   - 'kanboard'
-  - 'mco.lbsg.net'      # minecraft on switch "featured server" DNS override for private server - dnsmasq combines this with upstream results, but this is fastest and first.
+# These DNS overrides are intended to affect Minecraft on Switch, redirecting
+# one or more "featured server" entries to my own server.
+# 
+# dnsmasq combines the override with upstream results, but the override
+# generally seems to win.
+#
+#- 'mco.lbsg.net'                # Lifeboat
+  - 'play.galaxite.net'           # Galaxite
+#- 'play.pixelparadise.gg'       # Pixel Paradise
+
 ssh_unique_port:        '2225'
 
 reboot_hour:            '01'
