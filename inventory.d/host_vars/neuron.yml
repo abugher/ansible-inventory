@@ -8,6 +8,7 @@ parent:                 "{{ gateway }}"
 platform:               'raspberry-pi'
 notify:                 'yes'
 aliases:
+  - 'apt'
   - 'ntp'
   - 'wiki'
   - 'public'
