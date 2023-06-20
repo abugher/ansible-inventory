@@ -1,4 +1,4 @@
-[ansible_target]
+[ansible-target]
 backup
 buttons
 catcher

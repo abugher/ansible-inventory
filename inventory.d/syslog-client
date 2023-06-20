@@ -1,4 +1,4 @@
-[syslog_client]
+[syslog-client]
 backup
 files
 neuron
