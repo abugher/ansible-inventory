@@ -1,9 +1,0 @@
-# Deploy ansible_master to these hosts.
-[ansible_master]
-synapse
-
-# Use keys from these hosts when deploying ansible_target.
-[ansible_master_extended]
-synapse
-mawg
-aaron-phone
