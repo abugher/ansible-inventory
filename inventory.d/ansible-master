@@ -1,10 +1,10 @@
 # Deploy ansible-master to these hosts.
 [ansible-master]
 synapse
+obsidian
 
 # Use keys from these hosts when deploying ansible-target.
 [ansible-master-extended]
 synapse
 mawg
 aaron-phone
-obsidian
