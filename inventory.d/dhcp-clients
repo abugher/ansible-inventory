@@ -2,7 +2,6 @@
 # See also:  internal-dns-targets
 backup
 aaron-phone
-catcher
 chromecast
 files
 google-home
@@ -11,7 +10,6 @@ mawg
 meliora
 neuron
 no
-partybus
 peekaboo
 repeater
 rudolph
@@ -23,6 +21,5 @@ wyze-cam
 xbox
 buttons
 silver
-slice
 switch
 obsidian
