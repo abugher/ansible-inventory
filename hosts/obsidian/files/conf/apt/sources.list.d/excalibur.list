@@ -1,0 +1,10 @@
+# Replace these with a mirror.
+deb http://deb.devuan.org/merged excalibur main contrib non-free
+deb-src http://deb.devuan.org/merged excalibur main contrib non-free
+#deb http://deb.devuan.org/merged excalibur-updates main contrib non-free
+#deb-src http://deb.devuan.org/merged excalibur-updates main contrib non-free
+# I guess these are fine.
+deb http://pkgmaster.devuan.org/merged excalibur main contrib non-free
+deb-src http://pkgmaster.devuan.org/merged excalibur main contrib non-free
+#deb http://pkgmaster.devuan.org/merged excalibur-security main contrib non-free
+#deb-src http://pkgmaster.devuan.org/merged excalibur-security main contrib non-free
