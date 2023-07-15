@@ -1,1 +1,1 @@
-APT::Default-Release "bullseye";
+APT::Default-Release "bookworm";
