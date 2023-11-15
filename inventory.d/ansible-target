@@ -1,6 +1,5 @@
 [ansible-target]
 backup
-buttons
 files
 meliora
 neuron
