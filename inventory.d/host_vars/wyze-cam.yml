@@ -1,7 +1,7 @@
 ---
 mac_address:            '2c:aa:8e:52:52:a8'
 ip_address:             '192.168.11.73'
-parent:                 'gateway'
+parent:                 "{{ groups['gateway'][0] }}"
 notify:                 'no'
 aliases:
   - 'wyze'

@@ -1,7 +1,7 @@
 ---
 #mac_address:            '02:ba:b3:7e:92:e4'     # Pine Phone - before hardware replacement
 mac_address:            '02:ba:c1:83:88:a6'     # Pine Phone - after hardware replacement
-parent:                 'gateway'
+parent:                 "{{ groups['gateway'][0] }}"
 notify:                 'no'
 pass_users:
   - 'aaron'

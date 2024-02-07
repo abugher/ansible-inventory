@@ -1,5 +1,5 @@
 ---
 #mac_address:            randomized
 #ip_address:             '192.168.11.x'
-parent:                 'gateway'
+parent:                 "{{ groups['gateway'][0] }}"
 notify:                 'no'

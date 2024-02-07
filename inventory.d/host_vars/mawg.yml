@@ -1,7 +1,7 @@
 ---
 mac_address:            '9c:4e:36:c0:d6:00'
 ip_address:             '192.168.11.52'
-parent:                 'gateway'
+parent:                 "{{ groups['gateway'][0] }}"
 notify:                 'no'
 ansible_master_user:    'aaron'
 update_hour:            '00'
