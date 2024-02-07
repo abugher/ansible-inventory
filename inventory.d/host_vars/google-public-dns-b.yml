@@ -1,4 +1,6 @@
 ---
 #mac_address:           ''
 ip_address:             '8.8.4.4'
+parent:                 "{{ groups['isp-gateway'][0] }}"
+platform:               'google-host'
 notify:                 'no'

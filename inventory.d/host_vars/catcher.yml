@@ -5,7 +5,7 @@ platform:               'raspberry-pi'
 mac_address:            '12:81:11:ea:36:a1' # o-pi wireless
 ip_address:             '192.168.11.74'
 known_host:             'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDc6PH8klHzS6tVUy9HyPcJIIyKnPyoxxKRKKdBQNUj8tacBaOMcDC5zQgtY+gCLjHhiVWwmFprvQDnddE/XA/d2y4LMOsbpuEtk62NMPMfRG4AeNcynHBKedHtNzXm3YsA9KzH1yUJzSksdK+BEZV3AvPJ3z6+kAR5sxHc5XnmsonxhD6h+7XOg4FnOqNSWn8xT3YUlsJt43MoXZRxMXog2vpchNS+aeyiNz4yB4iEE3nE2h2qHMjog0+YmElqJ+kFvv1Ritx4ZvJ0pzyCdmXoxkNXeifTMQQCP9/c48yTpzyHjMIhL89DIyZ+yKoIcxfsEnB5B8BTLl8vYCmVBgK/XfHvVJNQOPPKqK06wbf40RUKIaUJbD2ebwObh9/Ce5ucJFk8ZCO+hL7PCUF8CJZP7RqBplu32dKShnHZK+A0ZkJTzjuk9YQwOjBkWdlAiz9IzSJew66tGYxDfcSi0b7gXByBn8cDiUKXGUQ3KegT/EKJuMUq+L1pVWP60IhFsi4W6MVWMWh3PWF5nwW4UTIkJX9X6P17Sx3q5fxbdBClN9ysfa95T1g27FMUEW6Jm8utG1TebUsDhAkCM6hUoGNIEm9icbA/hsxaIbXYnvT+lHMADgZlkdrHtGQiE/SBBIsftOV9pL+ZxLbZP6PoHGUC1hkdJzIbL2MEq5aFpKPk6w=='
-parent:                 'gateway'
+parent:                 "{{ groups['gateway'][0] }}"
 notify:                 'no'
 reboot_hour:            '11'
 reboot_minute:          '59'

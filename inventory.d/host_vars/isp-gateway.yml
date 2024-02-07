@@ -4,6 +4,6 @@
 #ip_address:             '162.238.208.1'         # AT&T fiber, Raleigh, east side (Southall subdivision)
 #ip_address:             '23.255.225.180'        # Google fiber, Raleigh (Southall)
 ip_address:             '136.54.96.1'           # Google fiber, Raleigh (Southall)
-parent:                 "{{ gateway }}"
+parent:                 "{{ groups['gateway'][0] }}"
 platform:               'big-router'
 notify:                 'yes'

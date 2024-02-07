@@ -1,5 +1,5 @@
 ---
 mac_address:            '54:60:09:af:e4:34'
 ip_address:             '192.168.11.68'
-parent:                 'gateway'
+parent:                 "{{ groups['gateway'][0] }}"
 notify:                 'no'

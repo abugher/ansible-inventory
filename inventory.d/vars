@@ -2,21 +2,15 @@
 # By default ansible (2.7.7) looks for /usr/bin/python, which is not present on
 # Debian with python3.
 ansible_python_interpreter=/usr/bin/python3
+
 domain='neuronpointer.net'
 netmask='255.255.255.0'
-# role assignment
-gateway='gateway'
-isp_gateway='isp-gateway'
-dns_server='neuron'
-syslog_server='meliora'
-steamcmd_server='meliora'
-dontstarvetogether_server='meliora'
-# I disable automatic fact gathering for performance.  Set facts manually,
-# here.
+
+# Automatic fact gathering is disabled.  Facts:
 #ansible_pkg_mgr         - required by steamcmd
 ansible_pkg_mgr='apt'
 # ansible_os_family     - required by dontstarvetogether
 ansible_os_family='Debian'
-usergroup_all=['aaron', 'rachel', 'dalton', 'steve', 'lucy', 'test']
-usergroup_games=['aaron', 'rachel', 'dalton', 'steve', 'lucy']
+usergroup_all=['aaron', 'rachel', 'dalton', 'lucy', 'test']
+usergroup_games=['aaron', 'rachel', 'dalton', 'lucy']
 timezone='America/New_York'

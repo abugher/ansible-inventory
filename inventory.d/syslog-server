@@ -1,3 +1,2 @@
 [syslog-server]
-#syslog_server='meliora'
 meliora
