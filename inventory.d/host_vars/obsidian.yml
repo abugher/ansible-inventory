@@ -10,3 +10,10 @@ notify: 'yes'
 pass_users:
   - 'aaron'
 ansible_master_user: 'aaron'
+backup_hour:            '06'
+backup_minute:          '16'
+backup_client_users:
+  - 'aaron'
+backup_paths:
+  aaron:
+    - '/home/aaron'
