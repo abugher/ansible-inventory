@@ -4,6 +4,7 @@
 ansible_python_interpreter=/usr/bin/python3
 
 domain='neuronpointer.net'
+domain_aliases=['bugher.net']
 netmask='255.255.255.0'
 
 # Automatic fact gathering is disabled.  Facts:
