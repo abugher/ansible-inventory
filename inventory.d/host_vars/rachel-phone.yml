@@ -3,3 +3,5 @@
 #ip_address:             '192.168.11.x'
 parent:                 "{{ groups['gateway'][0] }}"
 notify:                 'no'
+pass_users:
+  - 'password-store'

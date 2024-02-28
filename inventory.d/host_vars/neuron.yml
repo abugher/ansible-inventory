@@ -1,5 +1,4 @@
 ---
-#mac_address:            'B8:27:EB:47:A1:FB' # Raspberry Pi (model 1 type B, maybe)
 mac_address:            '00:1e:06:37:3f:c7' # Odroid MC1 Solo
 ip_address:             '192.168.11.54'
 known_host:             'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCmKnwem0i/nlAYGmzV8cvaTQXYCxm+x/YlTEoT+Q9eJiLj6z7ZqKhTclxsknxgNT8PeInbn7300eWHF2yC9v5uqgHDxDjIahVlJJPziDOhhjW1r2rPnYnta5SM6EKLKNSStMOdSoQq29QipGPQL5Y5SzYpJ80sqviCI3LzZccmgDX7ueVE14S3u4OiMQTX2OEmdeh2mSqa5FESsLvi6IiCYcLbaafjpVJhEOP52Knje2H20N8d9TOkkW6dnrAMzqDxgSVMm4Y8fSv4m9gIlELzKm0DN34IZqnQYJjreGkp/DQjZ8fuJeFeYVRA//C6OqVhXD7sYjag61xoFWavECI7'
@@ -12,6 +11,7 @@ aliases:
   - 'ntp'
   - 'wiki'
   - 'public'
+  - 'webmail'
   - 'neuronpointer.net'
 reboot_hour:            '01'
 reboot_minute:          '59'
@@ -19,3 +19,6 @@ update_hour:            '02'
 update_minute:          '30'
 network_interface:      'eth0'
 backup_proxy_target:    'files'
+tor_kilobytes:          '50000'
+tor_kilobytes_burst:    '100000'
+tor_fingerprint:        'F85C8A15B5FC5DC4FD144C774379F234F9B892BC'
