@@ -1,1 +1,2 @@
-deb http://apt.armbian.com bookworm main
+deb http://apt.armbian.com bookworm main bookworm-utils bookworm-desktop
+
