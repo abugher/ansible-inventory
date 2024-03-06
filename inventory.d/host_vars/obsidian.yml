@@ -1,3 +1,4 @@
+---
 mac_address: 'd4:d8:53:5d:3c:11'
 ip_address:  '192.168.11.81'
 ssh_unique_port:  '2233'
@@ -16,4 +17,14 @@ backup_client_users:
   - 'aaron'
 backup_paths:
   aaron:
-    - '/home/aaron'
+    - '/home/aaron/.gnupg'
+    - '/home/aaron/.password-store'
+    - '/home/aaron/.nethackrc'
+    - '/home/aaron/games/'
+    - '/home/aaron/images/'
+    - '/home/aaron/archive/'
+    - '/home/aaron/code/'
+    - '/home/aaron/control_center/'
+    - '/home/aaron/bin/'
+    - '/home/aaron/notes/'
+
