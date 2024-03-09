@@ -25,3 +25,4 @@ backup_client_users:
 backup_paths:
   root:
     - '/var/lib/krb5kdc'
+platform_roles:         'armbian'

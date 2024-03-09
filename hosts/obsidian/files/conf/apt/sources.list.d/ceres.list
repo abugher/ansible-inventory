@@ -1,6 +1,0 @@
-# Replace these with a mirror.
-deb http://deb.devuan.org/merged ceres main contrib non-free
-deb-src http://deb.devuan.org/merged ceres main contrib non-free
-# I guess these are fine.
-deb http://pkgmaster.devuan.org/merged ceres main contrib non-free
-deb-src http://pkgmaster.devuan.org/merged ceres main contrib non-free

@@ -27,4 +27,5 @@ backup_paths:
     - '/home/aaron/control_center/'
     - '/home/aaron/bin/'
     - '/home/aaron/notes/'
-
+os_release_name:        'excalibur'
+platform_roles:         'devuan'

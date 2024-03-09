@@ -31,3 +31,4 @@ backup_paths:
     - '/storage/aaron-phone'
   debian-transmission:
     - '/var/lib/transmission-daemon'
+platform_roles:         'armbian'

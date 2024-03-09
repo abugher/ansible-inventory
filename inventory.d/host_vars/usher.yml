@@ -22,3 +22,4 @@ update_minute:          '17'
 #motion_mask_file:       'raleigh_front_window.pgm'
 aliases:
   - 'remote'
+platform_roles:         'raspios'
