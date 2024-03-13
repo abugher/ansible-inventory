@@ -18,7 +18,16 @@ backup_client_users:
 backup_paths:
   mail:
     - '/var/mail'
-tor_kilobytes:          '200'
-tor_kilobytes_burst:    '500'
+#tor_kilobytes:          '200'
+#tor_kilobytes_burst:    '500'
+# Observed maximum throughput:  30kB/s (5 years ago)
+#                               6kB/s (recently)
+# Observed typical throughput:  6kB/s (5 years ago)
+#                               1kB/s (recently
+#tor_kilobytes:          '30'
+#tor_kilobytes_burst:    '60'
+# Tor says 76.8 kB/s or GTFO.
+tor_kilobytes:          '77'
+tor_kilobytes_burst:    '150'
 tor_nickname:           'neuronMail'
 tor_fingerprint:        'AB6690AAF45F53F7F3BC842E23779F24C9346DF9'
