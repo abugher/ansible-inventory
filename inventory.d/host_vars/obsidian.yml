@@ -29,3 +29,5 @@ backup_paths:
     - '/home/aaron/notes/'
 os_release_name:        'excalibur'
 platform_roles:         'devuan'
+nethack_users:
+  - 'aaron'

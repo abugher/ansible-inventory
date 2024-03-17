@@ -19,11 +19,16 @@ update_hour:            '02'
 update_minute:          '30'
 network_interface:      'eth0'
 backup_proxy_target:    'files'
-# Observed maximum throughput over about two weeks (with 5mB/s limit, 10mB/s burst) was one spike of about 800 kB/s read and about the same written.  Under 500kB/s is typical.
-#
-# 0.3 kB/s normal (lower than observed average) 
-# 1.0 kB/s burst  (higher than observed maximum)
-tor_kilobytes:          '300'
+# Observed throughput over about two weeks with 5mB/s limit, 10mB/s burst:
+#   800 kB/s read and about the same written, one day
+#   < 500kB/s, most days
+#tor_kilobytes:          '300'
+#tor_kilobytes_burst:    '1000'
+# Observed throughput with above:  
+#   307 kB/s, 6 days in a row
+#   255 kB/s, 3 days in a row
+# No spikes.
+tor_kilobytes:          '500'
 tor_kilobytes_burst:    '1000'
 tor_fingerprint:        'F85C8A15B5FC5DC4FD144C774379F234F9B892BC'
 platform_roles:         'armbian'
