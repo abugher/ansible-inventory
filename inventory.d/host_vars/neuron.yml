@@ -20,7 +20,8 @@ update_minute:          '30'
 network_interface:      'eth0'
 backup_proxy_target:    'files'
 # 5k kb (10k kb burst) was putting this in syslog, and Tor failed to bootstrap:  Your computer is too slow to handle this many circuit creation requests! Please consider using the MaxAdvertisedBandwidth config option or choosing a more restricted exit policy.
-tor_kilobytes:          '500'
-tor_kilobytes_burst:    '800'
+# 500 kb (800 kb burst) got this message:  Your network connection speed appears to have changed. Resetting timeout to 60000ms after 18 timeouts and 1000 buildtimes.
+tor_kilobytes:          '300'
+tor_kilobytes_burst:    '600'
 tor_fingerprint:        'F85C8A15B5FC5DC4FD144C774379F234F9B892BC'
 platform_roles:         'armbian'
