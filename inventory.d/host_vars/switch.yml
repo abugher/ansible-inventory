@@ -1,3 +1,5 @@
 ---
-mac_address:            '20:0b:cf:22:17:cc'
-ip_address:             '192.168.11.56'
+mac_address:            'b0:c7:45:36:81:4a'     # Buffalo AirStation WZR-1750DHP
+ip_address:             '192.168.11.3'
+platform:               'router'
+notify:                 'yes'
