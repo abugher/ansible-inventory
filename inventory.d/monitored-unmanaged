@@ -1,4 +1,4 @@
 [monitored-unmanaged]
 gateway
-google-public-dns-a
+adguard-public-dns-a
 isp-gateway

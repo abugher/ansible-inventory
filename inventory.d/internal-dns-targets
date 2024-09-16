@@ -8,12 +8,13 @@ gateway
 google-home
 google-public-dns-a
 google-public-dns-b
+adguard-public-dns-a
+adguard-public-dns-b
 hue
 isp-gateway
 mawg
 meliora
 neuron
-neuron-mail
 no
 peekaboo
 repeater

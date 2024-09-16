@@ -1,0 +1,5 @@
+---
+#mac_address:           ''
+ip_address:             '94.140.15.15'
+parent:                 "{{ groups['isp-gateway'][0] }}"
+notify:                 'no'
