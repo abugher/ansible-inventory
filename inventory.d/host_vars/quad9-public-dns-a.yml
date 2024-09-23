@@ -1,0 +1,5 @@
+---
+# dns9.quad9.net
+ip_address:             '9.9.9.9'
+parent:                 "{{ groups['isp-gateway'][0] }}"
+notify:                 'no'
