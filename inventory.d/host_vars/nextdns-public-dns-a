@@ -1,0 +1,5 @@
+---
+# dns1.nextdns.io.
+ip_address:             '45.90.28.216'
+parent:                 "{{ groups['isp-gateway'][0] }}"
+notify:                 'no'

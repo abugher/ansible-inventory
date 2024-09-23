@@ -10,6 +10,9 @@ google-public-dns-a
 google-public-dns-b
 adguard-public-dns-a
 adguard-public-dns-b
+nextdns-public-dns-a
+nextdns-public-dns-b
+quad9-public-dns-a
 hue
 isp-gateway
 mawg
