@@ -17,6 +17,7 @@ encrypted_storage:
 aliases:
   - 'transmission'
   - 'download'
+  - 'convert'
 reboot_hour:            '02'
 reboot_minute:          '59'
 update_hour:            '17'
