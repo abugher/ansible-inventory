@@ -16,8 +16,6 @@ encrypted_storage:
     mount_options:      'noatime,noauto,nodev,nosuid,noexec'
 aliases:
   - 'transmission'
-  - 'download'
-  - 'convert'
 reboot_hour:            '02'
 reboot_minute:          '59'
 update_hour:            '17'
