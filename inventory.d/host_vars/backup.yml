@@ -13,7 +13,7 @@ encrypted_storage:
     backing_device:     '/dev/sda'
     mount_point:        '/backup'
     fstype:             'btrfs'
-    mount_options:      'noatime,noauto,nodev,nosuid,noexec'
+    mount_options:      'noatime,noauto,nodev,nosuid,noexec,compress=zlib:9'
 backup_prefix:          '/backup'
 snapshot_yearlies:      '10'
 snapshot_monthlies:     '4'
