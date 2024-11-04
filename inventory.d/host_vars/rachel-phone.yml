@@ -1,6 +1,6 @@
 ---
-#mac_address:            randomized
-#ip_address:             '192.168.11.x'
+mac_address:            '74:74:46:c6:81:ff'
+ip_address:             '192.168.11.82'
 parent:                 "{{ groups['gateway'][0] }}"
 notify:                 'no'
 pass_users:
