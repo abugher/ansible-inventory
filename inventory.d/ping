@@ -1,2 +1,9 @@
 [ping]
+# Functionally redundant to host up/down status.
+# 
+# I like to use the nagios "services" page as an overview.  Listing a host here
+# forces it to appear on that page.
 isp-gateway
+silver-on-windows
+rachel-phone
+aaron-phone
