@@ -7,7 +7,7 @@ known_host:             'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDonvVVJXalX/E22qK
 update_hour:            '06'
 update_minute:          '00'
 backup_hour:            '12'
-backup_minute:          '00'
+backup_minute:          '45'
 notify:                 'no'
 skip_reboot:            True
 reboot_hour: '04'

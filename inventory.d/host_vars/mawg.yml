@@ -10,7 +10,7 @@ update_minute:          '00'
 reboot_hour:            '00'
 reboot_minute:          '00'
 backup_hour:            '04'
-backup_minute:          '20'
+backup_minute:          '25'
 skip_reboot:            True
 backup_client_users:
   - 'aaron'

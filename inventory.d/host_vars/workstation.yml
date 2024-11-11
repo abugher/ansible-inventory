@@ -13,7 +13,7 @@ reboot_minute:          '59'
 update_hour:            '00'
 update_minute:          '17'
 backup_hour:            '02'
-backup_minute:          '00'
+backup_minute:          '10'
 skip_reboot:            True
 x_drivers:
   - 'fbturbo'

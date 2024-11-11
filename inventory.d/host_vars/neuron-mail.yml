@@ -13,7 +13,7 @@ update_minute:          '30'
 reboot_hour:            '14'
 reboot_minute:          '59'
 backup_hour:            '04'
-backup_minute:          '49'
+backup_minute:          '35'
 backup_client_users:
   - 'mail'
 backup_paths:
