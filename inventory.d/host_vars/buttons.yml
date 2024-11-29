@@ -1,5 +1,6 @@
 ---
-#mac_address:            ''
+#mac_address:            '00:04:4b:eb:bb:1f'     # wired
+mac_address:            '18:56:80:73:2f:e4'     # wireless
 ip_address:             '192.168.11.77'
 known_host:             'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDbCxsO/Z0Mx3CkSHcY3lS652IGkT6r2av1QbNLjcH3y0EeuoDpKsIY3mkXuqvvXIwk27WKw6JsvVuxHmb6VvDW0pLI9/7LsT0WOKop/Pka30d3NSfXsnDQliR2+udDQo3ZmtWENmIUSnqiSJRmMmv0+heuFFC/tlGNalmYE71dRf+FN6Q1wjep7JEiHWIWenZiXVJiGB9yff6T6s7eYKkb0o9ptInpJgRShXGdSWUg+JrWvjEdWMi3+FyHwVn2aYqftRra7mcQfxrt95mzTO6nZyo9BFpTs2H/PihK9eZJoSnfiXgobIzsc1dwQbSCcKkDzNBl5qeLOlmf6vLvl3Nq6np7ZkSl7zPIQ74s/BeCx1LkjZjb6d0f8hl5XnoiICNV0VcR4RsbdqlVfHq2tLrKGhqZzX+Ug3xyMuxfH+Tiepd5h31oEFnf4ItijLMdQ+EhV5jLzcSIijZq+3OxYXHOa8VjOAQacJo1tIFakmPQt3o4bSqwFDw/OzYuAC6Z2izBpKlZedT3SADAS5ZCviKOYpp7jHri3n6yPNFkEb1Ltqtg8HUVq4ZqmfrJwGZULbbJbqy7ygtmRZlqdj+l/cTMiNQNvwtIsnKP+APS1Sy1kXjZl/TAQ7e0ZNKGhnmODShGd+3enu4/Xzuir2f3JvRw2yuJTuqYQHO2Tkr4iAzIsw=='
 parent:                 "{{ groups['gateway'][0] }}"
@@ -12,6 +13,5 @@ reboot_hour:            '03'
 reboot_minute:          '50'
 update_hour:            '04'
 update_minute:          '50'
-mac_address:  '18:56:80:73:2f:e4'
 platform_roles:
   - 'jetson-nano'
