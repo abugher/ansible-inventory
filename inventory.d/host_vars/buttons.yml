@@ -10,8 +10,6 @@ aliases:
   - 'remote'
 ssh_unique_port:        '2227'
 
-reboot_hour:            '03'
-reboot_minute:          '50'
 update_hour:            '04'
 update_minute:          '50'
 platform_roles:

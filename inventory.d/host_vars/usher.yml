@@ -9,8 +9,6 @@ known_host:             'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCvwCktlkvMcx+dBIF
 ssh_unique_port:        '2226'
 parent:                 "{{ groups['gateway'][0] }}"
 notify:                 'yes'
-reboot_hour:            '13'
-reboot_minute:          '59'
 update_hour:            '14'
 update_minute:          '17'
 #encrypted_storage:

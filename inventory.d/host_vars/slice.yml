@@ -9,6 +9,5 @@ skip_reboot:            True
 ip_address:             '192.168.11.80'
 ssh_unique_port:        '2232'
 known_host:             'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDTt4CkLwpEa67wGgwLSBcEGe7AZCDTy6wn0JhOpCYVEyThKELeGYJXLQjYEQmdFjkugu6272HySnhvScwvJVOGPev7FTQ3osWVPg6r8d+2YkVQeoZf+wc4zq6CRpSG8Yr/yMe7hkAh0A8Cov9ALtgHGuVJ3a70kar9RAYM7tlxDjRAMQxXF4+vG+PRSwqIXBqHrCeG5wXcY5l4JXujNSSgQCeDNuNQtzUtnDUoQna1Sj9DRdIk/YfbrD9cAeT21MCSZoyz5WnFLJkwmynCzsXsmoKxE4zYi6AteoXw79c9p7A9on/Xr9zKGwmuPQlLaGwyioyGeH5/V7YJc/Xiq2YL69GAs5mfirTH9IaNRgi3JBH9vpjBfd6RUTzT1uiLRFti7+V8r757z0kY4yy+GHnGG1Pva2BKZHdBlg2Mgjc5i+YPZ49hJ763V81amWVNti+iQ329OH6WomCGaq8/p0+ZPcYRgfoaYkLG4kluIWVp+6lLAW3yOf+W/04yFBEjZaT/LG3rbd2yo26dmjehw0STKw3n7/tkHMEF1VvLvSs10gLamCh7J7A+anncLblUBIMFBJZ4s+vJ3peS4a8gNfEES8zI/Twj1K8OfyAJ+5IosSzg3vqdt55e+7s+iXll5NuBHs5kLBjYBPBplGbmzufvMQjMMKigVxrqFZaV5cpi9w== '
-reboot_hour:            '06'
 update_hour:            '08'
 update_minute:          '00'

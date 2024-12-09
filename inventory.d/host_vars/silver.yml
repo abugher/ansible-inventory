@@ -10,7 +10,6 @@ backup_hour:            '12'
 backup_minute:          '45'
 notify:                 'no'
 skip_reboot:            True
-reboot_hour: '04'
 backup_client_users:
   - 'rachel'
 backup_paths:

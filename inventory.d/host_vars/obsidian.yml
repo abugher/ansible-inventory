@@ -3,7 +3,6 @@ mac_address: 'd4:d8:53:5d:3c:11'
 ip_address:  '192.168.11.81'
 ssh_unique_port:  '2233'
 known_host: 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCdiysBTvi/5YXP/W6gOTKzLwGbGMG80rsG5xAyMJbw9FrobEJYsLby8U3lTUBWRLUz51atHbiXSfb28hD841A+EFzaCgZO0A6jA1aRrHt8CMW6TSK75wMD6JBw0J3u1pXnxwl46Zgd2IqTYyHhuCDUcxS4v6PozEQMoh8+Vt539Wpg0/MT4TU7ggD9lnLyQvoduQjaB0hSU6o3FPaZCQpq4iJADj5p2GGBjlvB/HC8/YIOGtPTlfqIpG9ccFh8vXho3locQ5jUgFeZGcA629L285YuVmJS19e3LO4uhBFFzCrytoXXoK9TDUFG/v2BPDLlRob2ilJmkSfjghMlnP13roo4R/w/HkkAd2HI3rfiq4Ma5SuZKGnMG3E+D9Gt/fZFSa7dyYL+dXSVddmgmv6hBHR5J8swwvOhbuRcFSXDoh4SdUem+lw6dWFFhYs3aPdNUL+nKkl8hN2fpAFA8UEZqqnHyvGolNOq6NplCr1KlctBWOdqUYbPbZP0zAwRRZIUMRaPdrjlFVqdQQIwgKvy6Lq+dkZuVQYDNK8O3aP+11P8Yecc2DJAfBEOu55v+Oj++OgiOw4xyfsWKVSPqkE4DK4lr4TONy2N3Hy9ubLUeLu+HnDis69e7DO/B70/MZv58LBymUdHhwMfvqbWbOZipn4Xmzfy2umCnLbC0OqymQ== '
-reboot_hour: '07'
 update_hour: '09'
 skip_reboot: True
 update_minute: '00'
