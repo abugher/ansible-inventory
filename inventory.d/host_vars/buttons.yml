@@ -9,9 +9,7 @@ notify:                 'yes'
 aliases:
   - 'remote'
 ssh_unique_port:        '2227'
-
-update_hour:            '04'
-update_minute:          '50'
 platform_roles:
   - 'jetson-nano'
-reboot_hour: '00'
+update_hour:            '03'
+update_minute:          '50'
