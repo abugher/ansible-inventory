@@ -17,7 +17,8 @@ encrypted_storage:
 aliases:
   - 'transmission'
 update_hour:            '17'
-update_minute:          '00'
+# Get the jump on flexget.
+update_minute:          '59'
 backup_hour:            '16'
 backup_minute:          '40'
 skip_reboot:            False

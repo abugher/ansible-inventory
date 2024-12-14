@@ -1,5 +1,5 @@
 ---
-os_release_name:        'jammy'
+os_release_name:        'noble'
 #mac_address:            '00:04:4b:eb:bb:1f'     # wired
 mac_address:            '18:56:80:73:2f:e4'     # wireless
 ip_address:             '192.168.11.77'
@@ -14,3 +14,4 @@ update_hour:            '04'
 update_minute:          '50'
 platform_roles:
   - 'jetson-nano'
+reboot_hour: '00'
