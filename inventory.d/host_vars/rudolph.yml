@@ -9,6 +9,8 @@ update_hour:            ' *'
 update_minute:          '30'
 backup_hour:            '12'
 backup_minute:          '20'
+backup_users:
+  - 'rachel'
 skip_reboot:            'yes'
 platform_roles:         'devuan'
 os_release_name:        'daedalus'
