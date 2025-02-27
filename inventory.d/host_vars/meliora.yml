@@ -7,7 +7,6 @@ parent:                 "{{ groups['gateway'][0] }}"
 platform:               'laptop'
 notify:                 'yes'
 aliases:
-  - 'printer'
   - 'kanboard'
 # These DNS overrides are intended to affect Minecraft on Switch, redirecting
 # one or more "featured server" entries to my own server.

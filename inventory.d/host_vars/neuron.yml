@@ -9,6 +9,7 @@ notify:                 'yes'
 aliases:
   - 'apt'
   - 'ntp'
+  - 'printer'
   - 'wiki'
   - 'public'
   - 'webmail'
