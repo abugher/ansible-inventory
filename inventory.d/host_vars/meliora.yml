@@ -1,6 +1,6 @@
 ---
-mac_address:            'F0:DE:F1:90:77:CB'  # wired
-#mac_address:            '98:48:27:47:69:88'  # USB wifi dongle
+#mac_address:            'F0:DE:F1:90:77:CB'  # wired
+mac_address:            '98:48:27:47:69:88'  # USB wifi dongle
 ip_address:             '192.168.11.53'
 known_host:             'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCjtB0AJy4nlj5gZWkXstBbdknzDtKgNXt1t7fDLnfDD9/Q3IyW92kjTF4x+g2e/ShvBYlrxoqxK052s3QV3QHNCn9RNNVpCTeyP4RJzw1dv2gdTrDKWOaNXzHy2RBpi0FQaWgvGZbQO4K9h1TUn/l4OBuyRiAksrOy+eGvhAlfllOj4DusXDLJzO2i9IwVLDrWUVDKqnp5FWE6MOAPcJK2JWl/chAcJxkKFLiBrVN/LgMtBOMDHd2PqsPVp1rTFbuHkGhbEfoBCMQNzES9QNE1PPHrq8EQB8OrEwHaBTSiX1AUJheYAcNpZkmJ2rcqJs7xI3tLR5TEGOeIu6HvEBxp'
 parent:                 "{{ groups['gateway'][0] }}"
@@ -8,6 +8,7 @@ platform:               'laptop'
 notify:                 'yes'
 aliases:
   - 'kanboard'
+  - 'remote'
 # These DNS overrides are intended to affect Minecraft on Switch, redirecting
 # one or more "featured server" entries to my own server.
 # 
