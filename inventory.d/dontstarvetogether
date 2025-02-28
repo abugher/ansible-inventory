@@ -1,13 +1,13 @@
 # For monitoring:
 [dontstarvetogether-updates]
-meliora
+#meliora
 
 # For deployment:
 [dontstarvetogether/instances/meliora]
-meliora
+#meliora
 
 [dontstarvetogether/instances/fruitopia]
-meliora
+#meliora
 
 [dontstarvetogether/instances/nauticum]
-meliora
+#meliora
