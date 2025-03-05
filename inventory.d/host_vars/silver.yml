@@ -17,3 +17,5 @@ backup_paths:
     - '/home/rachel'
 pass_users:
   - 'rachel'
+nethack_users:
+  - 'rachel'

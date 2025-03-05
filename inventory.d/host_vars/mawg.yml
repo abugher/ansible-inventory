@@ -21,3 +21,5 @@ backup_paths:
     - '/home/aaron/games/dungeons_and_dragons'
 pass_users:
   - 'aaron'
+nethack_users:
+  - 'aaron'
