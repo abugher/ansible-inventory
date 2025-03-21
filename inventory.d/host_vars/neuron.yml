@@ -27,7 +27,7 @@ tor_fingerprint:                'F85C8A15B5FC5DC4FD144C774379F234F9B892BC'
 platform_roles:                 'armbian'
 reboot_hour:                    '00'
 wiki_database_dump_hour:        '01'
-wiki_database_dump_minute:      '00'
+wiki_database_dump_minute:      '20'
 backup_hour:                    '13'
 backup_minute:                  '50'
 backup_client_users:
