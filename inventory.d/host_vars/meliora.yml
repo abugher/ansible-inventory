@@ -23,7 +23,7 @@ ssh_unique_port:        '2225'
 
 update_hour:            '02'
 update_minute:          '30'
-backup_hour:            '04'
+backup_hour:            '05'
 backup_minute:          '05'
 backup_client_users:
   - 'www-data'

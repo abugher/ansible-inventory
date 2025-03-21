@@ -7,7 +7,7 @@ notify:                 'no'
 ansible_master_user:    'aaron'
 update_hour:            '00'
 update_minute:          '00'
-backup_hour:            '04'
+backup_hour:            '07'
 backup_minute:          '25'
 skip_reboot:            True
 backup_client_users:

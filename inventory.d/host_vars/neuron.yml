@@ -1,11 +1,11 @@
 ---
-mac_address:            '00:1e:06:37:3f:c7' # Odroid MC1 Solo
-ip_address:             '192.168.11.54'
-known_host:             'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCmKnwem0i/nlAYGmzV8cvaTQXYCxm+x/YlTEoT+Q9eJiLj6z7ZqKhTclxsknxgNT8PeInbn7300eWHF2yC9v5uqgHDxDjIahVlJJPziDOhhjW1r2rPnYnta5SM6EKLKNSStMOdSoQq29QipGPQL5Y5SzYpJ80sqviCI3LzZccmgDX7ueVE14S3u4OiMQTX2OEmdeh2mSqa5FESsLvi6IiCYcLbaafjpVJhEOP52Knje2H20N8d9TOkkW6dnrAMzqDxgSVMm4Y8fSv4m9gIlELzKm0DN34IZqnQYJjreGkp/DQjZ8fuJeFeYVRA//C6OqVhXD7sYjag61xoFWavECI7'
-ssh_unique_port:        '22'
-parent:                 "{{ groups['gateway'][0] }}"
-platform:               'raspberry-pi'
-notify:                 'yes'
+mac_address:                    '00:1e:06:37:3f:c7' # Odroid MC1 Solo
+ip_address:                     '192.168.11.54'
+known_host:                     'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCmKnwem0i/nlAYGmzV8cvaTQXYCxm+x/YlTEoT+Q9eJiLj6z7ZqKhTclxsknxgNT8PeInbn7300eWHF2yC9v5uqgHDxDjIahVlJJPziDOhhjW1r2rPnYnta5SM6EKLKNSStMOdSoQq29QipGPQL5Y5SzYpJ80sqviCI3LzZccmgDX7ueVE14S3u4OiMQTX2OEmdeh2mSqa5FESsLvi6IiCYcLbaafjpVJhEOP52Knje2H20N8d9TOkkW6dnrAMzqDxgSVMm4Y8fSv4m9gIlELzKm0DN34IZqnQYJjreGkp/DQjZ8fuJeFeYVRA//C6OqVhXD7sYjag61xoFWavECI7'
+ssh_unique_port:                '22'
+parent:                         "{{ groups['gateway'][0] }}"
+platform:                       'raspberry-pi'
+notify:                         'yes'
 aliases:
   - 'apt'
   - 'ntp'
@@ -15,14 +15,23 @@ aliases:
   - 'webmail'
   - 'wiki'
   - 'neuronpointer.net'
-update_hour:            '02'
-update_minute:          '30'
-network_interface:      'eth0'
-backup_proxy_target:    'files'
+update_hour:                    '02'
+update_minute:                  '30'
+network_interface:              'eth0'
+backup_proxy_target:            'files'
 # 5k kb (10k kb burst) was putting this in syslog, and Tor failed to bootstrap:  Your computer is too slow to handle this many circuit creation requests! Please consider using the MaxAdvertisedBandwidth config option or choosing a more restricted exit policy.
 # 500 kb (800 kb burst) got this message:  Your network connection speed appears to have changed. Resetting timeout to 60000ms after 18 timeouts and 1000 buildtimes.
-tor_kilobytes:          '300'
-tor_kilobytes_burst:    '600'
-tor_fingerprint:        'F85C8A15B5FC5DC4FD144C774379F234F9B892BC'
-platform_roles:         'armbian'
-reboot_hour: '00'
+tor_kilobytes:                  '300'
+tor_kilobytes_burst:            '600'
+tor_fingerprint:                'F85C8A15B5FC5DC4FD144C774379F234F9B892BC'
+platform_roles:                 'armbian'
+reboot_hour:                    '00'
+wiki_database_dump_hour:        '01'
+wiki_database_dump_minute:      '00'
+backup_hour:                    '13'
+backup_minute:                  '00'
+backup_client_users:
+  - 'www-data'
+backup_paths:
+  www-data:
+    - '/usr/share/mediawiki/wiki-database-dump'
