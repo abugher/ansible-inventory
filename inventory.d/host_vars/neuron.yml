@@ -29,7 +29,7 @@ reboot_hour:                    '00'
 wiki_database_dump_hour:        '01'
 wiki_database_dump_minute:      '00'
 backup_hour:                    '13'
-backup_minute:                  '00'
+backup_minute:                  '50'
 backup_client_users:
   - 'www-data'
 backup_paths:
