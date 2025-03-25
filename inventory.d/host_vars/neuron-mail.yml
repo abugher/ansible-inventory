@@ -14,9 +14,12 @@ backup_hour:            '04'
 backup_minute:          '35'
 backup_client_users:
   - 'mail'
+  - 'debian-tor'
 backup_paths:
   mail:
     - '/var/mail'
+  debian-tor:
+    - '/var/lib/tor/keys'
 tor_kilobytes:          '200'
 tor_kilobytes_burst:    '500'
 tor_nickname:           'neuronMail'

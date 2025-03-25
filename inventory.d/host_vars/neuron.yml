@@ -23,7 +23,7 @@ backup_proxy_target:            'files'
 # 500 kb (800 kb burst) got this message:  Your network connection speed appears to have changed. Resetting timeout to 60000ms after 18 timeouts and 1000 buildtimes.
 tor_kilobytes:                  '300'
 tor_kilobytes_burst:            '600'
-tor_fingerprint:                'F85C8A15B5FC5DC4FD144C774379F234F9B892BC'
+tor_fingerprint:                '5ECD1F8B6F3FC5956FCE91DF37193D12136AF65C'
 platform_roles:                 'armbian'
 reboot_hour:                    '00'
 # Wiki database dump and backup should probably lock each other out.  For now,
@@ -34,6 +34,9 @@ backup_hour:                    '13'
 backup_minute:                  '50'
 backup_client_users:
   - 'www-data'
+  - 'debian-tor'
 backup_paths:
   www-data:
     - '/usr/share/mediawiki/wiki-database-dump'
+  debian-tor:
+    - '/var/lib/tor/keys'
