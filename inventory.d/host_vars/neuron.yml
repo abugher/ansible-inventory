@@ -36,7 +36,8 @@ backup_client_users:
   - 'www-data'
   - 'debian-tor'
 backup_paths:
-  www-data:
-    - '/usr/share/mediawiki/wiki-database-dump'
   debian-tor:
     - '/var/lib/tor/keys'
+backup_database_paths:
+  www-data:
+    - '/usr/share/mediawiki/wiki-database-dump'

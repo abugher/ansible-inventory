@@ -1,7 +1,6 @@
 ---
-# Close enough, but technically, it's an Odroid-HC1, and formerly a Banana Pi M1.
+# Close enough, but technically, it's an Odroid-HC1.
 platform:                       'raspberry-pi'
-#mac_address:                    '02:55:08:42:95:49'
 mac_address:                    '00:1e:06:36:85:6d'
 ip_address:                     '192.168.11.62'
 ssh_unique_port:                '2223'
