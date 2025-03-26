@@ -33,3 +33,4 @@ backup_hour:                    '16'
 backup_minute:                  '40'
 skip_reboot:                    False
 
+reboot_hour: '02'
