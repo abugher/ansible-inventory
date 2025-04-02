@@ -24,6 +24,8 @@ backup_proxy_target:            'files'
 tor_kilobytes:                  '300'
 tor_kilobytes_burst:            '600'
 tor_fingerprint:                '5ECD1F8B6F3FC5956FCE91DF37193D12136AF65C'
+tor_socks_address:              '0.0.0.0'
+tor_socks_port:                 '9050'
 platform_roles:                 'armbian'
 reboot_hour:                    '00'
 # Wiki database dump and backup should probably lock each other out.  For now,
