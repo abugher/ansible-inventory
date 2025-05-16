@@ -15,11 +15,18 @@ backup_minute:          '35'
 backup_client_users:
   - 'mail'
   - 'debian-tor'
+  - 'list'
 backup_paths:
   mail:
     - '/var/mail'
   debian-tor:
     - '/var/lib/tor/keys'
+  list:
+    - '/var/lib/mailman3/archives'
+    - '/var/lib/mailman3/data'
+    - '/var/lib/mailman3/lists'
+    - '/var/lib/mailman3/messages'
+    - '/var/lib/mailman3/templates'
 tor_kilobytes:          '200'
 tor_kilobytes_burst:    '500'
 tor_nickname:           'neuronMail'
