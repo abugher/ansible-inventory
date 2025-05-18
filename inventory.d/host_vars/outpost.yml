@@ -5,7 +5,7 @@ mac_address:            'dc:a6:32:5b:62:36' # r-pi wireless
 #mac_address:            '98:48:27:51:8c:a1' # USB wifi dongle
 #mac_address:            '98:48:27:51:8c:89' # USB wifi dongle
 ip_address:             '192.168.11.67'
-known_host:             'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCvwCktlkvMcx+dBIFIXTI9Hoz/vX/NTRYbBOW4YBeBR8gkcutZrzOn9mT9MlWARIBL+RmO1ss2VCLb+LE/7t3zBYzVH0cXC+e48ppIoCkXmVZh3YZPzAHiWbp8Q9ocA+xUa1l3nNTPa3N47HuNFejcaPlWZEnC4fN4+aszDwbwLXyTxQrmbLaBK1mOKnibbY8zfTSyu1tT6dpY/+dk1QVjKofhcnZSaZKRSMvMlddrkBNfF0J20SJOlkag19uVRR6NU8gx6pOAoJAuWy0ZeEH6U2ckF+lvgnh5kkGw4N/HawRFnXkBaduXZZ16U+gT4eKgofI3eWOzbb7Ptwg83BmGNSexDXNb9Wb036VisYdcSVxF252WJzsRlystpz6JC9cDG7l9AZ8lsdBtuCw89/4+NsiICvGVwneO7OkxCCiz5pzhasYkh6aVbx2vqtAko4h4Bm8Y5NOdTDcuO9F5pVBrnzALQ0OiwNTrLW9Drfq8WxfsEZGgMRqHvlc7EQnNpCJUM3k/fHT3hbOTSVu6fRuYFaBjI1dzTdaZo58XVU7Kua3PKAmkOuC5meKFwAP3pGA+rVXv+J4x7hioHmWbQg8zJOlrZPGO6s8IhqzVQ9wGQshPskgLBWlx6jJ9kGw30xR5QBlyVSXTXHGlep1b/qHExSxFIYFBxjzBLPmritEz1Q=='
+known_host:             'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDIQFUY+hUlCqRVpauutSFmBYpnyD6owCphL122/OqXhPdo2e7dcfp3e6OU3cPWzjUe9PEISRdrS1/o1tdVu4rhyv7ktgrb4f9hrosSZ0EWz9o/fXdv+9ChGsq9gn6IIwh5+TEWQY3CIoUrcj/fk0rQEflequH8YmYsFAzHxQuESPOXY1vKNSMVgF2NkwlnXmUlGnLF9bbT7lbcQDmpHmWMEDo1hanUvb9Q9KFmCBGo7YaeKs1HwQO7x5jwicLZfnYU/vIkmUCq9SqURHZKDIQ+qwqHBg9/xFlcLfOHJl9dhrLCy4PVNX5U/8HjBbDC97IXgRlVMvPLZzmHG+/GMesv/GyrhC9/OtxdCiPhlaEN9xa6BC7zHwuOIW6DwVbbWGvvufv1bhDfQJILnnxlTb82RAi1rqlFRKOBjSyyzWAko3mabY6USTHpE4moHLIFeGUeUXFjPrHXanGHBaGwdp3V9PAoh+UnyBvHgixzOvXxA71b0j+Y+Sl4wHCimkG+XEO5RGahHjMmjFWIjApyqaZLt9zJKbgZ2+91eSzpaUljywcgEuHOS/+8HE+5xIRC8Wq6CKPTiOT6v+shIEgWFXycWPKIFhvIb6jkGRFhRvpiNhNyAHJbxKs1Y88QogjiajcQmCTfkOQO701hLbu3ouX/GV1Kp0CuBWoxz/8uC5tmvw=='
 ssh_unique_port:        '2226'
 parent:                 "{{ groups['gateway'][0] }}"
 notify:                 'yes'
@@ -18,7 +18,6 @@ update_minute:          '17'
 #    fstype:             'ext4'
 #    mount_options:      'noatime,noauto,nodev,nosuid,noexec'
 #motion_mask_file:       'raleigh_front_window.pgm'
-aliases:
-  - 'remote'
 platform_roles:         
   - 'raspios'
+reboot_hour:            '03'
