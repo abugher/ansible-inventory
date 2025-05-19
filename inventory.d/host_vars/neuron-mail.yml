@@ -19,6 +19,7 @@ backup_client_users:
 backup_paths:
   mail:
     - '/var/mail'
+    - '/etc/postfix/external-aliases'
   debian-tor:
     - '/var/lib/tor/keys'
   list:
