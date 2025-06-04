@@ -1,13 +1,33 @@
 ---
-#mac_address:            'f8:0f:f9:f0:47:a6'     # Nexus 5
-mac_address:            'f8:0f:f9:d6:b9:7a'     # Pixel 4a
-ip_address:             '192.168.11.57'
-parent:                 "{{ groups['gateway'][0] }}"
-notify:                 'no'
+#mac_address:                    'f8:0f:f9:f0:47:a6'     # Nexus 5
+mac_address:                    'f8:0f:f9:d6:b9:7a'     # Pixel 4a
+ip_address:                     '192.168.11.57'
+parent:                         "{{ groups['gateway'][0] }}"
+notify:                         'no'
 pass_users:
   - 'aaron'
-ssh_unique_port:  '2231'
-known_host: 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDSX+yS/Rky2sqqdVXmcGwbJ3GYyt4CgM39D85hE9RRvW4Qz9bZyUBuL9RVG15iX5+MNkm3QZ+YcGi/v09vgKKxFlDmLL3Tbj8my6W6iQZ9DZJIUZRmwtLnmN+BehTgDHptROLwPI1F0oEj/BSA2pkDnW2cXAbQ3AaU5c0nmLcLEZMb860mWGQ08EPQYgwzmzrzBlUc3FdMqvKHeLhHpZLYCGoj0sOj3rXl+LBoxssnC1g8iwTVMBYUc/2o0HEsFmzMpxHewicAHjL/Rk8tnjzkcArsFx5ogpA+Usn5ouzwkFGMgzJPFqmd+dF5FYxd3Y+30k+5xK4TR8hSF7jcCQnNJ+h89+p3G1h/sH8Gipa+pvTK5/LAAeL4qKs4LgmLcWG8RuTJ+EmOCNvAbsr1V084R1ohM17nEvMXX4fwXS6RHOqIlIvti47D74AKdUwErAA3ikyRUhSMGBCwsLiHy8+MO47EtInQg+/oQQTUXXp8ZSPTC8K7fBRmY2ppjAo4x7rnj6gT95aRo0C/4CoHM3GBfwbWdvLDPHmrTNkYUQqJjxnXKhQiWrMZBbUbRBex2L51+w7Sq7OKtqdWCMXYDUlX9j6wzRj+3bmEZcWf82OTlbd93AFKhSamn6x/qRh00MF7yY9wwVdemyTdZp7q3IOexa66YaSUdo1Ug37jC5Fzcw== '
-update_hour: '07'
-update_minute: '00'
-skip_reboot:  True
+ssh_unique_port:                '2231'
+known_host:                     'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDSX+yS/Rky2sqqdVXmcGwbJ3GYyt4CgM39D85hE9RRvW4Qz9bZyUBuL9RVG15iX5+MNkm3QZ+YcGi/v09vgKKxFlDmLL3Tbj8my6W6iQZ9DZJIUZRmwtLnmN+BehTgDHptROLwPI1F0oEj/BSA2pkDnW2cXAbQ3AaU5c0nmLcLEZMb860mWGQ08EPQYgwzmzrzBlUc3FdMqvKHeLhHpZLYCGoj0sOj3rXl+LBoxssnC1g8iwTVMBYUc/2o0HEsFmzMpxHewicAHjL/Rk8tnjzkcArsFx5ogpA+Usn5ouzwkFGMgzJPFqmd+dF5FYxd3Y+30k+5xK4TR8hSF7jcCQnNJ+h89+p3G1h/sH8Gipa+pvTK5/LAAeL4qKs4LgmLcWG8RuTJ+EmOCNvAbsr1V084R1ohM17nEvMXX4fwXS6RHOqIlIvti47D74AKdUwErAA3ikyRUhSMGBCwsLiHy8+MO47EtInQg+/oQQTUXXp8ZSPTC8K7fBRmY2ppjAo4x7rnj6gT95aRo0C/4CoHM3GBfwbWdvLDPHmrTNkYUQqJjxnXKhQiWrMZBbUbRBex2L51+w7Sq7OKtqdWCMXYDUlX9j6wzRj+3bmEZcWf82OTlbd93AFKhSamn6x/qRh00MF7yY9wwVdemyTdZp7q3IOexa66YaSUdo1Ug37jC5Fzcw== '
+update_hour:                    '07'
+update_minute:                  '00'
+skip_reboot:                    True
+#become:                         False
+act_as_root:                    'no'
+termux_root:                    '/data/data/com.termux/files'
+termux_user:                    'u0_a309'
+remote_user:                    "{{ termux_user }}"
+system_user:                    "{{ termux_user }}"
+log_dir:                        "{{ termux_root }}/usr/var/log"
+bin_dir:                        "{{ termux_root }}/usr/local/bin"
+conf_dir:                       "{{ termux_root }}/usr/etc"
+cron_dir:                       "{{ conf_dir }}/cron.d"
+backup_client_user:             'aaron'
+backup_hour:                    '12'
+backup_minute:                  '55'
+backup_client_local_user:       "{{ termux_user }}"
+backup_client_users:
+  - 'aaron'
+backup_paths:
+  - "{{ termux_root }}/home"
+  - "{{ termux_root }}/usr/etc"
+install_packages_with_apt:      True
