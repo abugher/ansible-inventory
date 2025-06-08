@@ -11,8 +11,10 @@ known_host:                     'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDSX+yS/Rk
 update_hour:                    '07'
 update_minute:                  '00'
 skip_reboot:                    True
-#become:                         False
-act_as_root:                    'no'
+become:                         False
+become_method:                  'su'
+
+ansible_python_interpreter:     '/data/data/com.termux/files/usr/bin/python3'
 termux_root:                    '/data/data/com.termux/files'
 termux_user:                    'u0_a309'
 remote_user:                    "{{ termux_user }}"
@@ -21,13 +23,18 @@ log_dir:                        "{{ termux_root }}/usr/var/log"
 bin_dir:                        "{{ termux_root }}/usr/local/bin"
 conf_dir:                       "{{ termux_root }}/usr/etc"
 cron_dir:                       "{{ conf_dir }}/cron.d"
+home_dir:                       "{{ termux_root }}/home"
+tmp_dir:                        "{{ termux_root }}/usr/tmp"
 backup_client_user:             'aaron'
 backup_hour:                    '12'
 backup_minute:                  '55'
 backup_client_local_user:       "{{ termux_user }}"
 backup_client_users:
   - 'aaron'
+# Photos are synced to files and backed up from there.  Both steps are
+# monitored.  Do not back up photos here.
 backup_paths:
-  - "{{ termux_root }}/home"
-  - "{{ termux_root }}/usr/etc"
+  aaron:
+    - "{{ termux_root }}/home"
+    - "{{ termux_root }}/usr/etc"
 install_packages_with_apt:      True
