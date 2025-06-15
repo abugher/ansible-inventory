@@ -27,9 +27,12 @@ backup_hour:            '05'
 backup_minute:          '05'
 backup_client_users:
   - 'www-data'
+  - 'minecraft-server'
 backup_paths:
   www-data:
     - '/usr/local/share/kanboard/data'
+  minecraft-server:
+    - '/home/minecraft-server'
 live_build_minute:      '00'
 live_build_hour:        '05'
 
