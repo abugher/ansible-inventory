@@ -32,7 +32,8 @@ backup_paths:
   www-data:
     - '/usr/local/share/kanboard/data'
   minecraft-server:
-    - '/home/minecraft-server'
+    - '/home/minecraft-server/worlds'
+    - '/etc/minecraft-server'
 live_build_minute:      '00'
 live_build_hour:        '05'
 
