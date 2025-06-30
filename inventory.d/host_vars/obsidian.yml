@@ -27,6 +27,7 @@ backup_paths:
     - '/home/aaron/bin/'
     - '/home/aaron/notes/'
 os_release_name:        'daedalus'
+debian_release_name:    'bookworm'
 platform_roles:         'devuan'
 nethack_users:
   - 'aaron'
