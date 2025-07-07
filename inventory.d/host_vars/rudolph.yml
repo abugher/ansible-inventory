@@ -1,4 +1,5 @@
 ---
+ssh_unique_port:        '2234'
 mac_address:            '5C:C5:D4:64:E6:19'
 ip_address:             '192.168.11.58'
 parent:                 "{{ groups['gateway'][0] }}"
