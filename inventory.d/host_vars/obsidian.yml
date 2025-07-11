@@ -18,7 +18,6 @@ backup_paths:
   aaron:
     - '/home/aaron/.gnupg'
     - '/home/aaron/.password-store'
-    - '/home/aaron/.nethackrc'
     - '/home/aaron/games/'
     - '/home/aaron/images/'
     - '/home/aaron/archive/'
