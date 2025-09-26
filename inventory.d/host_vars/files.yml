@@ -18,11 +18,14 @@ aliases:
 backup_client_users:
   - 'aaron-phone'
   - 'debian-transmission'
+  - 'exploris-recordings'
 backup_paths:
   aaron-phone:
     - '/storage/aaron-phone'
   debian-transmission:
     - '/var/lib/transmission-daemon'
+  exploris-recordings:
+    - '/storage/exploris-recordings'
 platform_roles:                 'armbian'
 flexget_vacuum_hour:            '05'
 flexget_failed_clear_hour:      '06'

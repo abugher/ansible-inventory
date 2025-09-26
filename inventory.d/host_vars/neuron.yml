@@ -43,3 +43,6 @@ backup_paths:
 backup_database_paths:
   www-data:
     - '/usr/share/mediawiki/wiki-database-dump'
+    # Some non-version-controlled code lives in public.
+    # Don't backup private/pictures.
+    - '/usr/share/nginx/html/public'
