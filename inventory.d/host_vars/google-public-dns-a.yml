@@ -1,6 +1,6 @@
 ---
 #mac_address:           ''
 ip_address:             '8.8.8.8'
-parent:                 "{{ groups['isp-gateway'][0] }}"
+parent:                 "{{ groups['isp-gateways'][0] }}"
 platform:               'google-host'
-notify:                 'no'
+nagios_notify:          'no'

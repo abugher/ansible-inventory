@@ -8,7 +8,7 @@ update_hour:            '06'
 update_minute:          '00'
 backup_hour:            '12'
 backup_minute:          '45'
-notify:                 'no'
+nagios_notify:          'no'
 skip_reboot:            True
 backup_client_users:
   - 'rachel'

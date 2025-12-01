@@ -1,8 +1,8 @@
 ---
 mac_address:            'fc:49:2d:20:eb:02'
 ip_address:             '192.168.11.76'
-parent:                 "{{ groups['gateway'][0] }}"
-notify:                 'no'
+parent:                 "{{ groups['gateways'][0] }}"
+nagios_notify:          'no'
 aliases:
   - 'kindle'
   - 'fire'

@@ -2,6 +2,6 @@
 #mac_address:            ''
 ip_address:             '192.168.11.1'
 platform:               'router'
-notify:                 'yes'
+nagios_notify:          'yes'
 aliases:
   - 'ap'

@@ -2,5 +2,5 @@
 #mac_address:            ''
 ip_address:             '127.0.0.1'
 platform:               'localhost'
-notify:                 'no'
+nagios_notify:          'no'
 
