@@ -25,8 +25,8 @@ backup_paths:
     - '/home/aaron/control-center/'
     - '/home/aaron/bin/'
     - '/home/aaron/notes/'
-os_release_name:        'daedalus'
-debian_release_name:    'bookworm'
+os_release_name:        'excalibur'
+debian_release_name:    'trixie'
 platform_roles:         'devuan'
 nethack_users:
   - 'aaron'

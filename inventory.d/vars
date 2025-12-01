@@ -4,7 +4,7 @@ domain_aliases=['bugher.net']
 netmask='255.255.255.0'
 timezone='America/New_York'
 platform_roles=['debian']
-os_release_name='bookworm'
+os_release_name='trixie'
 
 # By default ansible (2.7.7) looks for /usr/bin/python, which is not present on
 # Debian with python3.
