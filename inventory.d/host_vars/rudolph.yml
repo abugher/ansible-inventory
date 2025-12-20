@@ -18,6 +18,7 @@ backup_minute:          '20'
 #    - '/home/rachel/'
 skip_reboot:            'yes'
 platform_roles:         'devuan'
-os_release_name:        'daedalus'
+os_release_name:        'excalibur'
+debian_release_name:    'trixie'
 nethack_users:
   - 'lucy'
