@@ -21,7 +21,7 @@ backup_client_users:
   - 'exploris-recordings'
 backup_paths:
   aaron-phone:
-    - '/storage/aaron-phone'
+    - '/storage/aaron-phone/sdcard'
   debian-transmission:
     - '/var/lib/transmission-daemon'
   exploris-recordings:
