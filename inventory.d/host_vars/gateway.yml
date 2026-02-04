@@ -1,5 +1,5 @@
 ---
-#mac_address:            ''
+mac_address:            'd8:58:d7:01:1d:56'
 ip_address:             '192.168.11.1'
 platform:               'router'
 nagios_notify:          'yes'
