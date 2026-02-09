@@ -5,3 +5,5 @@ platform:               'router'
 nagios_notify:          'yes'
 aliases:
   - 'ap'
+ssh_unique_port:        '2237'
+known_host:             'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCMDNArZ+E/3Ltdzts2J+N+IfVVp25gAsqxFGn7oNS607TtrwSGIfr7oWm4asuuF/WRvbtpWN8HsaTyw25krjjTUeNom0QwtBlSFxH0ygbokw3ISCDzp7Ivbqu5urI+uawWPQ1D/wRIT+FXODJHxVhf62ULbuRal7B/5llJYs36VdFek9QywMiTNklHmQnyKp2BSbx4b/piZITHAQEOoHnGbrjsbr3TybWY0X30e8VtvBb12ngxCbXWgMTGaBDkbJY3rEWLhDyxV+wnouddyamNJ+m8zgkKCPYrb9aSm5/EjlzccsQAAty0Nr06C4S6EyD08o6yxVRB7YRv7ZmNg4sSOKASrjgOO4v4xD8aN4/fS+xfVkTh+KopR8A/Gda6uY/0ZKZQzW79+1T2NxCMYyaM5nHnlWUj852N1ruZ+86Ty+D53sajWebD/tQOzjiMR5uykqKwXKg0/43s0haDi2pyyS12H/f2Fcyu4vfA5/NySuGVybBgzfi0eaHLc8TWsdMCPd2VJdI/CjqM+ODAz4eAZs0vTMBO4wIojqKfVIiOhpvuCdxNRARO71BhcOKrpQdQtgsU9dSwT48eCGqcuwLSXxzau6wrGLs3UUnMqk3sXclbkRXuDooYFMpw1b3c9qI4IsSNhCFPdDDZsnVwQhw4sFpxBb93gnP8V6m1Rixj/Q=='
