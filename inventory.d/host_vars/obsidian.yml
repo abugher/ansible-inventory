@@ -27,6 +27,8 @@ backup_paths:
     - '/home/aaron/notes/'
 os_release_name:                'excalibur'
 debian_release_name:            'trixie'
-platform_roles:                 'devuan'
+platform_roles:
+  - 'devuan'
+  - 'debian-fasttrack'
 nethack_users:
   - 'aaron'
