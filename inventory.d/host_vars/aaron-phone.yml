@@ -38,3 +38,5 @@ backup_paths:
     - "{{ termux_root }}/home"
     - "{{ termux_root }}/usr/etc"
 install_packages_with_apt:      True
+bash_path:                      '/data/data/com.termux/files/usr/bin/bash'
+
