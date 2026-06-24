@@ -1,8 +1,1 @@
-# no-systemd remedies a condition where shutdown fails to complete, on some
-# Raspbian Buster systems upgraded from as far back as Wheezy, possibly
-# Squeeze.
-#
-# I'm not sure this is the case for other systems like fresh Armbian.
 [no-systemd]
-neuron                  # armbian - affected?
-files                   # armbian - affected?
