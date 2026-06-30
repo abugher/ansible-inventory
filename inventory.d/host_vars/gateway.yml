@@ -2,6 +2,9 @@
 mac_address:            'd8:58:d7:01:1d:56'
 ip_address:             '192.168.11.1'
 platform:               'router'
+# The real gateway does not have this CPU architecture and is not controlled by
+# ansible.  This value is used for a staging VM.
+cpu_architecture:       'amd64'
 nagios_notify:          'yes'
 aliases:
   - 'ap'
