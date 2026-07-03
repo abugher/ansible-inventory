@@ -1,0 +1,11 @@
+---
+mac_address:                    '73:38:2c:ba:9a:df'
+ip_address:                     '192.168.11.83'
+ssh_unique_port:                '2238'
+known_host:                     'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCVuQ3o9g+cmINVEX9+lHVYJ30Mez0v9DE36XwSQfBLKMc0Z3At/BlTThwYiOp2EnP5Mk1OaS+BVIC37chDERzKgbKRqjIRU658JgJSvDwlD8DIdszmhB8LIj6pnjvfVOQjdvyfF8dO6zkPvw01CkzRrQI8ir/CtytTRPwLfdYce+plhOlb9i51QXFy2qunHXVho4XbyZC9E9CCBM/40Dxr2wOc8352R9LhpS9sXxDCIfMbzs3RmMTo+/X6G4lSwbtSBtypo3J11A0isi8sZ6DEQ/eZXYWxtsQt9cI/ydsfPzuBIfwbEHqIPwyJhctdvsvOLRXNzFdCw4xo92PQ+RntTJubNOzDt50ToPBY2Dl0FvG7HUYCggI+1hmMi1aWtykHRW/neEuld3eDSfMlvwqAYlM44npI6X4pnXEk0UDCl1Ykv+SbtnUl53k9EuFhjyJhnNGXtOGH8OkPOn8rH3+uAo0vyhmhMFp0ODMJJmQPt8G8gEWFz2NJ9DN7w2XgOBpBB3aZVbqx3CokJqeq8qMxEImIfqq1ubCRu1+Jp78ONx4SQgbLfOdOxqb6IghLl3CnWXmt1eKyhVVCs6GJiKtPM/M/0yVS3D98k1JMQJH1w7ufD5qSrIWWBEt5yGyOnEAQsUhJebLZjKpGLFtaSW1p0eLQIzNSVS/19iwCBoi3/w=='
+pass_users:
+  - 'aaron'
+ansible_master_user:            'aaron'
+os_release_name:                'trixie'
+platform_roles:
+  - 'debian'

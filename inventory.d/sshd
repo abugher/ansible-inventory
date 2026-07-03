@@ -1,3 +1,6 @@
+# These SSH servers are controlled by ansible.  See the known-hosts group for
+# other SSH servers with known keys.
+
 [sshd]
 backup
 files
