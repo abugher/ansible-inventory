@@ -1,5 +1,6 @@
 # These hosts have known SSH keys but are not in the sshd hostgroup.
 
 [known-hosts]
-github.com
+gateway
 controller
+github.com
