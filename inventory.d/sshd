@@ -11,3 +11,9 @@ rudolph
 synapse
 silver
 obsidian
+
+# These SSH servers are controlled by ansible, but only in the staging
+# environment.  Adding these to sshd would cause `deploy-role` to fail.
+[sshd-extended]
+gateway                 # Production host is not controlled by ansible.
+controller              # Production host does not exist.
