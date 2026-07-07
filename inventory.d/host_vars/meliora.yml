@@ -89,3 +89,6 @@ update_steam_minute: '10'
 update_dontstarvetogether_hour: '09'
 update_dontstarvetogether_minute: '20'
 ## END Don't Starve Together dedicated server
+
+nethack_users:
+  - 'ansible'
